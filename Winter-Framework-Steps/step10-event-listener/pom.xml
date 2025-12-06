@@ -6,8 +6,8 @@
         <artifactId>Winter-Framework-Steps</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <artifactId>step9-custom-bean</artifactId>
-    <name>step9-custom-bean</name>
+    <artifactId>step10-event-listener</artifactId>
+    <name>step10-event-listener</name>
 
     <dependencies>
         <dependency>
