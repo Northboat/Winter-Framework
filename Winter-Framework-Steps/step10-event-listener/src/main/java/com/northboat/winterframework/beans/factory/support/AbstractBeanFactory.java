@@ -55,9 +55,9 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 
         // factoryBean 在 if 语句中定义
         // 先从缓存中获取
-        Object object = getObjectFromFactoryBean(factoryBean, beanName);
+        Object object = getCachedObjectForFactoryBean(beanName);
         // 若缓存中不存在，则从 factoryBean 中获取
-        if(object != null){
+        if(object == null){
             object = getObjectFromFactoryBean(factoryBean, beanName);
         }
 
