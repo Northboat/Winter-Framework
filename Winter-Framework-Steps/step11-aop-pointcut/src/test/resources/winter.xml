@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean class="com.northboat.winterframework.test.event.ContextRefreshedEventListener"/>
+    <bean class="com.northboat.winterframework.test.event.CustomEventListener"/>
+    <bean class="com.northboat.winterframework.test.event.ContextClosedEventListener"/>
+
+</beans>

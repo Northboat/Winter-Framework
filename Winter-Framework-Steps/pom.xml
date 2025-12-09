@@ -19,6 +19,7 @@
         <module>step8-factory-context-aware</module>
         <module>step9-custom-bean</module>
         <module>step10-event-listener</module>
+        <module>step11-aop-pointcut</module>
     </modules>
 
 
